@@ -1,0 +1,21 @@
+{
+  "name": "reader-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "github:hydrabolt/discord.js",
+    "discord.js-commando": "github:discordjs/commando",
+    "dotenv": "^6.0.0",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "node-opus": "^0.3.0",
+    "watson-developer-cloud": "^3.5.1"
+  }
+}
