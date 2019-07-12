@@ -5,12 +5,13 @@ const client = new Commando.Client({
     commandPrefix: '!!' 
 });
 const path = require('path')
-var TextToSpeechV1 = require('watson-developer-cloud/text-to-speech/v1')
+var TextToSpeechV1 = require('ibm-watson/text-to-speech/v1')
 
 module.exports = {
     tts: new TextToSpeechV1({
         username: process.env.TTS_USER,
-        password: process.env.TTS_PASS
+        password: process.env.TTS_PASS,
+        url: 'https://stream.watsonplatform.net/text-to-speech/api'
     }),
     queues: {}
 }

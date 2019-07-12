@@ -11,11 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "github:hydrabolt/discord.js",
-    "discord.js-commando": "github:discordjs/commando",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
     "dotenv": "^6.0.0",
-    "ffmpeg-binaries": "^3.2.2-3",
-    "node-opus": "^0.3.0",
-    "watson-developer-cloud": "^3.5.1"
+    "ffmpeg-static": "^2.5.0",
+    "ibm-watson": "^4.2.1"
   }
 }
